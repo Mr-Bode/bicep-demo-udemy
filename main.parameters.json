@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountName": {
+      "value": "bodestbicepdev"
+    },
+    "sftpStorageAccountName": {
+      "value": "bodestsftpdev"
+    },
+    "storageAccountSku": {
+      "value": "Standard_LRS"
+    },
+    "applicationInsightsName":{
+      "value": "appi-bodebicep-dev"
+    },
+    "appServicePlanName":{
+      "value": "app-bicepdev-bode"
+    },
+    "appServicePlanSku":{
+      "value": "B1"
+    },
+    "functionAppName":{
+      "value": "func-bodebicep-app"
+    },
+    "apiKey":{
+      "value": "yt7r7e84933jotot"
+    }
+  }
+}
